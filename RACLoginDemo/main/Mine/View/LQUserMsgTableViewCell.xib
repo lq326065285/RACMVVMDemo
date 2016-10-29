@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LQUserMsgTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I4b-JF-nBp">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="w1E-3D-asn"/>
+                            <constraint firstAttribute="height" constant="70" id="zrN-mq-WMY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="35"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="liqiang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="95" translatesAutoresizingMaskIntoConstraints="NO" id="2PE-LX-bdP">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="95" id="WKZ-3v-al5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Sc-HQ-ZBK">
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQI-tD-es6">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="msU-3F-72e"/>
+                                    <constraint firstAttribute="height" constant="30" id="yYI-Dr-vo4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="登录/注册">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bQI-tD-es6" firstAttribute="centerX" secondItem="7Sc-HQ-ZBK" secondAttribute="centerX" id="Fyj-pR-wb2"/>
+                            <constraint firstItem="bQI-tD-es6" firstAttribute="centerY" secondItem="7Sc-HQ-ZBK" secondAttribute="centerY" id="WmF-8t-3kb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="2PE-LX-bdP" firstAttribute="top" secondItem="I4b-JF-nBp" secondAttribute="bottom" constant="15" id="01j-QE-2We"/>
+                    <constraint firstItem="7Sc-HQ-ZBK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Jle-KL-s5y"/>
+                    <constraint firstAttribute="trailing" secondItem="7Sc-HQ-ZBK" secondAttribute="trailing" id="QeD-gT-aMx"/>
+                    <constraint firstAttribute="bottom" secondItem="7Sc-HQ-ZBK" secondAttribute="bottom" constant="0.5" id="WZu-NI-qCQ"/>
+                    <constraint firstItem="I4b-JF-nBp" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="hMZ-L8-Fae"/>
+                    <constraint firstItem="7Sc-HQ-ZBK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="je4-fn-ZEV"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="2PE-LX-bdP" secondAttribute="bottom" constant="15" id="oqp-4E-rlQ"/>
+                    <constraint firstItem="I4b-JF-nBp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="13" id="yaV-kk-Hoq"/>
+                    <constraint firstItem="2PE-LX-bdP" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="zhf-TH-b2x"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnLogin" destination="bQI-tD-es6" id="voR-wb-w2t"/>
+                <outlet property="imgHead" destination="I4b-JF-nBp" id="74y-Jt-YK0"/>
+                <outlet property="lblName" destination="2PE-LX-bdP" id="KK5-EL-NJk"/>
+                <outlet property="viewLoginBtnBack" destination="7Sc-HQ-ZBK" id="4In-9e-f94"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="-98"/>
+        </tableViewCell>
+    </objects>
+</document>

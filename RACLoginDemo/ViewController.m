@@ -8,8 +8,13 @@
 
 #import "ViewController.h"
 
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
+#import "LQLoginViewController.h"
+
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *btnLogin;
 @end
 
 @implementation ViewController
@@ -17,6 +22,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"登录";
+    
+    @weakify(self);
+    [[self.btnLogin rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+        @strongify(self);
+        LQLoginViewController * loginVC = [[LQLoginViewController alloc] init];
+        [self.navigationController pushViewController:loginVC animated:YES];
+    }];
 }
 
 

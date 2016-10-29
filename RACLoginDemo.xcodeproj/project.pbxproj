@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69B41A5B2EF7F9C35969668A /* libPods-RACLoginDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 219E5D1811AFCB6DC6FF474F /* libPods-RACLoginDemo.a */; };
 		F11926F61DBB3B9B00B91CE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11926F51DBB3B9B00B91CE8 /* main.m */; };
 		F11926F91DBB3B9B00B91CE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F11926F81DBB3B9B00B91CE8 /* AppDelegate.m */; };
 		F11926FC1DBB3B9B00B91CE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11926FB1DBB3B9B00B91CE8 /* ViewController.m */; };
@@ -15,6 +16,48 @@
 		F11927041DBB3B9B00B91CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11927021DBB3B9B00B91CE8 /* LaunchScreen.storyboard */; };
 		F119270F1DBB3B9B00B91CE8 /* RACLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F119270E1DBB3B9B00B91CE8 /* RACLoginDemoTests.m */; };
 		F119271A1DBB3B9C00B91CE8 /* RACLoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F11927191DBB3B9C00B91CE8 /* RACLoginDemoUITests.m */; };
+		F1239C2C1DC1D66600565FC0 /* LQUserMsgViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C291DC1D66600565FC0 /* LQUserMsgViewModel.m */; };
+		F1239C301DC1D68900565FC0 /* LQMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C2F1DC1D68900565FC0 /* LQMineModel.m */; };
+		F1239C331DC1D6C600565FC0 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C321DC1D6C600565FC0 /* BaseModel.m */; };
+		F1239C371DC1DBA300565FC0 /* LQGetTestConfigData.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C361DC1DBA300565FC0 /* LQGetTestConfigData.m */; };
+		F1239C3A1DC1DBB600565FC0 /* LQGetTestData.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C391DC1DBB600565FC0 /* LQGetTestData.m */; };
+		F1239C3E1DC1DC4900565FC0 /* LQUserMsgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C3C1DC1DC4900565FC0 /* LQUserMsgTableViewCell.m */; };
+		F1239C3F1DC1DC4900565FC0 /* LQUserMsgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1239C3D1DC1DC4900565FC0 /* LQUserMsgTableViewCell.xib */; };
+		F1239C421DC1E92F00565FC0 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C411DC1E92F00565FC0 /* BaseViewModel.m */; };
+		F1239C481DC1EC8200565FC0 /* LQCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C451DC1EC8200565FC0 /* LQCellViewModel.m */; };
+		F1239C491DC1EC8200565FC0 /* LQViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C471DC1EC8200565FC0 /* LQViewModel.m */; };
+		F1239C4C1DC1ECC700565FC0 /* LQMineCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C4B1DC1ECC700565FC0 /* LQMineCellViewModel.m */; };
+		F1239C4F1DC1F98E00565FC0 /* LQSettingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C4E1DC1F98E00565FC0 /* LQSettingViewModel.m */; };
+		F1319CB41DC2E8020059292A /* head_image.png in Resources */ = {isa = PBXBuildFile; fileRef = F1319CB31DC2E8020059292A /* head_image.png */; };
+		F1319CB71DC301F90059292A /* LQMineViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1319CB61DC301F90059292A /* LQMineViewModel.m */; };
+		F147287D1DC42CA700421E99 /* LQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F147287B1DC42CA700421E99 /* LQLoginViewController.m */; };
+		F147287E1DC42CA700421E99 /* LQLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F147287C1DC42CA700421E99 /* LQLoginViewController.xib */; };
+		F14728811DC43B8F00421E99 /* LQSettingHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F14728801DC43B8F00421E99 /* LQSettingHeaderView.m */; };
+		F14728841DC43BFA00421E99 /* LQSettingHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F14728831DC43BFA00421E99 /* LQSettingHeaderViewModel.m */; };
+		F163664D1DBEE99000DFFC63 /* LQCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16366431DBEE99000DFFC63 /* LQCategoryViewController.m */; };
+		F163664E1DBEE99000DFFC63 /* LQCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16366441DBEE99000DFFC63 /* LQCategoryViewController.xib */; };
+		F163664F1DBEE99000DFFC63 /* LQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16366471DBEE99000DFFC63 /* LQHomeViewController.m */; };
+		F16366501DBEE99000DFFC63 /* LQHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16366481DBEE99000DFFC63 /* LQHomeViewController.xib */; };
+		F163665D1DBEEA2800DFFC63 /* LQMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F163665B1DBEEA2800DFFC63 /* LQMineTableViewCell.m */; };
+		F163665E1DBEEA2800DFFC63 /* LQMineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F163665C1DBEEA2800DFFC63 /* LQMineTableViewCell.xib */; };
+		F1705A2E1DBE0190004A635F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1705A2D1DBE0190004A635F /* BaseViewController.m */; };
+		F1705A3B1DBE0E8A004A635F /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1705A391DBE0E8A004A635F /* BaseTableViewCell.m */; };
+		F1705A3C1DBE0E8A004A635F /* BaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1705A3A1DBE0E8A004A635F /* BaseTableViewCell.xib */; };
+		F1A330661DBF2E2F0043EA5D /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A330651DBF2E2F0043EA5D /* BaseView.m */; };
+		F1A330761DBF43650043EA5D /* LQMineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A3306E1DBF43650043EA5D /* LQMineDetailViewController.m */; };
+		F1A330771DBF43650043EA5D /* LQMineDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A3306F1DBF43650043EA5D /* LQMineDetailViewController.xib */; };
+		F1A330781DBF43650043EA5D /* LQMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A330711DBF43650043EA5D /* LQMineViewController.m */; };
+		F1A330791DBF43650043EA5D /* LQMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A330721DBF43650043EA5D /* LQMineViewController.xib */; };
+		F1A3307A1DBF43650043EA5D /* LQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A330741DBF43650043EA5D /* LQSettingViewController.m */; };
+		F1A3307B1DBF43650043EA5D /* LQSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A330751DBF43650043EA5D /* LQSettingViewController.xib */; };
+		F1A3307F1DBF45380043EA5D /* LQSettingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A3307D1DBF45380043EA5D /* LQSettingTableCell.m */; };
+		F1A330801DBF45380043EA5D /* LQSettingTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A3307E1DBF45380043EA5D /* LQSettingTableCell.xib */; };
+		F1A330841DBF49860043EA5D /* NSObject+enVon.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A330831DBF49860043EA5D /* NSObject+enVon.m */; };
+		F1A330871DBF49E30043EA5D /* LQGlobalService.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A330861DBF49E30043EA5D /* LQGlobalService.m */; };
+		F1A3308B1DBF4BA80043EA5D /* LQCancelLoginTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A330891DBF4BA80043EA5D /* LQCancelLoginTableCell.m */; };
+		F1A3308C1DBF4BA80043EA5D /* LQCancelLoginTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A3308A1DBF4BA80043EA5D /* LQCancelLoginTableCell.xib */; };
+		F1D3F5581DC053B3001854C8 /* LQInterfaceService.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3F5571DC053B3001854C8 /* LQInterfaceService.m */; };
+		F1D3F55B1DC05AAE001854C8 /* NSString+EnVon.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3F55A1DC05AAE001854C8 /* NSString+EnVon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +78,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		219E5D1811AFCB6DC6FF474F /* libPods-RACLoginDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACLoginDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		354E6CD6AEEAD1B5ACDAC91C /* Pods-RACLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLoginDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACLoginDemo/Pods-RACLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C0216C5D46BA64BFFA9DCC57 /* Pods-RACLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLoginDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACLoginDemo/Pods-RACLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F11926F11DBB3B9B00B91CE8 /* RACLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11926F51DBB3B9B00B91CE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F11926F71DBB3B9B00B91CE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +97,82 @@
 		F11927151DBB3B9B00B91CE8 /* RACLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11927191DBB3B9C00B91CE8 /* RACLoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACLoginDemoUITests.m; sourceTree = "<group>"; };
 		F119271B1DBB3B9C00B91CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1239C281DC1D66600565FC0 /* LQUserMsgViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQUserMsgViewModel.h; sourceTree = "<group>"; };
+		F1239C291DC1D66600565FC0 /* LQUserMsgViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQUserMsgViewModel.m; sourceTree = "<group>"; };
+		F1239C2E1DC1D68900565FC0 /* LQMineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMineModel.h; sourceTree = "<group>"; };
+		F1239C2F1DC1D68900565FC0 /* LQMineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMineModel.m; sourceTree = "<group>"; };
+		F1239C311DC1D6C600565FC0 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		F1239C321DC1D6C600565FC0 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		F1239C351DC1DBA300565FC0 /* LQGetTestConfigData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQGetTestConfigData.h; sourceTree = "<group>"; };
+		F1239C361DC1DBA300565FC0 /* LQGetTestConfigData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQGetTestConfigData.m; sourceTree = "<group>"; };
+		F1239C381DC1DBB600565FC0 /* LQGetTestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQGetTestData.h; sourceTree = "<group>"; };
+		F1239C391DC1DBB600565FC0 /* LQGetTestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQGetTestData.m; sourceTree = "<group>"; };
+		F1239C3B1DC1DC4900565FC0 /* LQUserMsgTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQUserMsgTableViewCell.h; sourceTree = "<group>"; };
+		F1239C3C1DC1DC4900565FC0 /* LQUserMsgTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQUserMsgTableViewCell.m; sourceTree = "<group>"; };
+		F1239C3D1DC1DC4900565FC0 /* LQUserMsgTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQUserMsgTableViewCell.xib; sourceTree = "<group>"; };
+		F1239C401DC1E92F00565FC0 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		F1239C411DC1E92F00565FC0 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		F1239C441DC1EC8200565FC0 /* LQCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCellViewModel.h; sourceTree = "<group>"; };
+		F1239C451DC1EC8200565FC0 /* LQCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCellViewModel.m; sourceTree = "<group>"; };
+		F1239C461DC1EC8200565FC0 /* LQViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQViewModel.h; sourceTree = "<group>"; };
+		F1239C471DC1EC8200565FC0 /* LQViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQViewModel.m; sourceTree = "<group>"; };
+		F1239C4A1DC1ECC700565FC0 /* LQMineCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMineCellViewModel.h; sourceTree = "<group>"; };
+		F1239C4B1DC1ECC700565FC0 /* LQMineCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMineCellViewModel.m; sourceTree = "<group>"; };
+		F1239C4D1DC1F98E00565FC0 /* LQSettingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSettingViewModel.h; sourceTree = "<group>"; };
+		F1239C4E1DC1F98E00565FC0 /* LQSettingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQSettingViewModel.m; sourceTree = "<group>"; };
+		F1319CB31DC2E8020059292A /* head_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_image.png; sourceTree = "<group>"; };
+		F1319CB51DC301F90059292A /* LQMineViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMineViewModel.h; sourceTree = "<group>"; };
+		F1319CB61DC301F90059292A /* LQMineViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMineViewModel.m; sourceTree = "<group>"; };
+		F147287A1DC42CA700421E99 /* LQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQLoginViewController.h; sourceTree = "<group>"; };
+		F147287B1DC42CA700421E99 /* LQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQLoginViewController.m; sourceTree = "<group>"; };
+		F147287C1DC42CA700421E99 /* LQLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQLoginViewController.xib; sourceTree = "<group>"; };
+		F147287F1DC43B8F00421E99 /* LQSettingHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSettingHeaderView.h; sourceTree = "<group>"; };
+		F14728801DC43B8F00421E99 /* LQSettingHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQSettingHeaderView.m; sourceTree = "<group>"; };
+		F14728821DC43BFA00421E99 /* LQSettingHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSettingHeaderViewModel.h; sourceTree = "<group>"; };
+		F14728831DC43BFA00421E99 /* LQSettingHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQSettingHeaderViewModel.m; sourceTree = "<group>"; };
+		F16366421DBEE99000DFFC63 /* LQCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCategoryViewController.h; sourceTree = "<group>"; };
+		F16366431DBEE99000DFFC63 /* LQCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCategoryViewController.m; sourceTree = "<group>"; };
+		F16366441DBEE99000DFFC63 /* LQCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQCategoryViewController.xib; sourceTree = "<group>"; };
+		F16366461DBEE99000DFFC63 /* LQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHomeViewController.h; sourceTree = "<group>"; };
+		F16366471DBEE99000DFFC63 /* LQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQHomeViewController.m; sourceTree = "<group>"; };
+		F16366481DBEE99000DFFC63 /* LQHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQHomeViewController.xib; sourceTree = "<group>"; };
+		F163665A1DBEEA2800DFFC63 /* LQMineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMineTableViewCell.h; sourceTree = "<group>"; };
+		F163665B1DBEEA2800DFFC63 /* LQMineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMineTableViewCell.m; sourceTree = "<group>"; };
+		F163665C1DBEEA2800DFFC63 /* LQMineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQMineTableViewCell.xib; sourceTree = "<group>"; };
+		F1705A2C1DBE0190004A635F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F1705A2D1DBE0190004A635F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F1705A301DBE0655004A635F /* MainHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainHeader.h; sourceTree = "<group>"; };
+		F1705A311DBE0677004A635F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F1705A381DBE0E8A004A635F /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		F1705A391DBE0E8A004A635F /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		F1705A3A1DBE0E8A004A635F /* BaseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableViewCell.xib; sourceTree = "<group>"; };
+		F1A330641DBF2E2F0043EA5D /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		F1A330651DBF2E2F0043EA5D /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		F1A3306D1DBF43650043EA5D /* LQMineDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMineDetailViewController.h; sourceTree = "<group>"; };
+		F1A3306E1DBF43650043EA5D /* LQMineDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMineDetailViewController.m; sourceTree = "<group>"; };
+		F1A3306F1DBF43650043EA5D /* LQMineDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQMineDetailViewController.xib; sourceTree = "<group>"; };
+		F1A330701DBF43650043EA5D /* LQMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMineViewController.h; sourceTree = "<group>"; };
+		F1A330711DBF43650043EA5D /* LQMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMineViewController.m; sourceTree = "<group>"; };
+		F1A330721DBF43650043EA5D /* LQMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQMineViewController.xib; sourceTree = "<group>"; };
+		F1A330731DBF43650043EA5D /* LQSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSettingViewController.h; sourceTree = "<group>"; };
+		F1A330741DBF43650043EA5D /* LQSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQSettingViewController.m; sourceTree = "<group>"; };
+		F1A330751DBF43650043EA5D /* LQSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQSettingViewController.xib; sourceTree = "<group>"; };
+		F1A3307C1DBF45380043EA5D /* LQSettingTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSettingTableCell.h; sourceTree = "<group>"; };
+		F1A3307D1DBF45380043EA5D /* LQSettingTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQSettingTableCell.m; sourceTree = "<group>"; };
+		F1A3307E1DBF45380043EA5D /* LQSettingTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQSettingTableCell.xib; sourceTree = "<group>"; };
+		F1A330821DBF49860043EA5D /* NSObject+enVon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+enVon.h"; sourceTree = "<group>"; };
+		F1A330831DBF49860043EA5D /* NSObject+enVon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+enVon.m"; sourceTree = "<group>"; };
+		F1A330851DBF49E30043EA5D /* LQGlobalService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQGlobalService.h; sourceTree = "<group>"; };
+		F1A330861DBF49E30043EA5D /* LQGlobalService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQGlobalService.m; sourceTree = "<group>"; };
+		F1A330881DBF4BA80043EA5D /* LQCancelLoginTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCancelLoginTableCell.h; sourceTree = "<group>"; };
+		F1A330891DBF4BA80043EA5D /* LQCancelLoginTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCancelLoginTableCell.m; sourceTree = "<group>"; };
+		F1A3308A1DBF4BA80043EA5D /* LQCancelLoginTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQCancelLoginTableCell.xib; sourceTree = "<group>"; };
+		F1D3F5561DC053B3001854C8 /* LQInterfaceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQInterfaceService.h; sourceTree = "<group>"; };
+		F1D3F5571DC053B3001854C8 /* LQInterfaceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQInterfaceService.m; sourceTree = "<group>"; };
+		F1D3F5591DC05AAE001854C8 /* NSString+EnVon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EnVon.h"; sourceTree = "<group>"; };
+		F1D3F55A1DC05AAE001854C8 /* NSString+EnVon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EnVon.m"; sourceTree = "<group>"; };
+		F1D3F55C1DC07C62001854C8 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
+		F1D3F55D1DC07C6E001854C8 /* UrlHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B41A5B2EF7F9C35969668A /* libPods-RACLoginDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +201,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A96F33400650A1A75FEA50B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219E5D1811AFCB6DC6FF474F /* libPods-RACLoginDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67934904B71D084483C0A147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0216C5D46BA64BFFA9DCC57 /* Pods-RACLoginDemo.debug.xcconfig */,
+				354E6CD6AEEAD1B5ACDAC91C /* Pods-RACLoginDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F11926E81DBB3B9A00B91CE8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +225,8 @@
 				F119270D1DBB3B9B00B91CE8 /* RACLoginDemoTests */,
 				F11927181DBB3B9B00B91CE8 /* RACLoginDemoUITests */,
 				F11926F21DBB3B9B00B91CE8 /* Products */,
+				67934904B71D084483C0A147 /* Pods */,
+				1A96F33400650A1A75FEA50B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +243,10 @@
 		F11926F31DBB3B9B00B91CE8 /* RACLoginDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F1319CB21DC2E8020059292A /* Images */,
+				F1A330811DBF49860043EA5D /* public */,
+				F1705A2F1DBE0259004A635F /* Header */,
+				F1705A1B1DBDF07A004A635F /* main */,
 				F11926F71DBB3B9B00B91CE8 /* AppDelegate.h */,
 				F11926F81DBB3B9B00B91CE8 /* AppDelegate.m */,
 				F11926FA1DBB3B9B00B91CE8 /* ViewController.h */,
@@ -118,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				F11926F51DBB3B9B00B91CE8 /* main.m */,
+				F1705A311DBE0677004A635F /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +287,197 @@
 			path = RACLoginDemoUITests;
 			sourceTree = "<group>";
 		};
+		F1239C271DC1D66600565FC0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1239C281DC1D66600565FC0 /* LQUserMsgViewModel.h */,
+				F1239C291DC1D66600565FC0 /* LQUserMsgViewModel.m */,
+				F1239C4A1DC1ECC700565FC0 /* LQMineCellViewModel.h */,
+				F1239C4B1DC1ECC700565FC0 /* LQMineCellViewModel.m */,
+				F1239C4D1DC1F98E00565FC0 /* LQSettingViewModel.h */,
+				F1239C4E1DC1F98E00565FC0 /* LQSettingViewModel.m */,
+				F1319CB51DC301F90059292A /* LQMineViewModel.h */,
+				F1319CB61DC301F90059292A /* LQMineViewModel.m */,
+				F14728821DC43BFA00421E99 /* LQSettingHeaderViewModel.h */,
+				F14728831DC43BFA00421E99 /* LQSettingHeaderViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1239C341DC1DBA300565FC0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F1239C351DC1DBA300565FC0 /* LQGetTestConfigData.h */,
+				F1239C361DC1DBA300565FC0 /* LQGetTestConfigData.m */,
+				F1239C381DC1DBB600565FC0 /* LQGetTestData.h */,
+				F1239C391DC1DBB600565FC0 /* LQGetTestData.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F1239C431DC1EC8200565FC0 /* publickViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1239C441DC1EC8200565FC0 /* LQCellViewModel.h */,
+				F1239C451DC1EC8200565FC0 /* LQCellViewModel.m */,
+				F1239C461DC1EC8200565FC0 /* LQViewModel.h */,
+				F1239C471DC1EC8200565FC0 /* LQViewModel.m */,
+			);
+			path = publickViewModel;
+			sourceTree = "<group>";
+		};
+		F1319CB21DC2E8020059292A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F1319CB31DC2E8020059292A /* head_image.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F14728791DC42CA700421E99 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F147287A1DC42CA700421E99 /* LQLoginViewController.h */,
+				F147287B1DC42CA700421E99 /* LQLoginViewController.m */,
+				F147287C1DC42CA700421E99 /* LQLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F16366411DBEE99000DFFC63 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F16366421DBEE99000DFFC63 /* LQCategoryViewController.h */,
+				F16366431DBEE99000DFFC63 /* LQCategoryViewController.m */,
+				F16366441DBEE99000DFFC63 /* LQCategoryViewController.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F16366451DBEE99000DFFC63 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F16366461DBEE99000DFFC63 /* LQHomeViewController.h */,
+				F16366471DBEE99000DFFC63 /* LQHomeViewController.m */,
+				F16366481DBEE99000DFFC63 /* LQHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F16366491DBEE99000DFFC63 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F1239C341DC1DBA300565FC0 /* Other */,
+				F1239C271DC1D66600565FC0 /* ViewModel */,
+				F1A3306C1DBF43650043EA5D /* VC */,
+				F16366531DBEE9CA00DFFC63 /* Model */,
+				F16366541DBEE9CA00DFFC63 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F16366531DBEE9CA00DFFC63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1239C2E1DC1D68900565FC0 /* LQMineModel.h */,
+				F1239C2F1DC1D68900565FC0 /* LQMineModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F16366541DBEE9CA00DFFC63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F163665A1DBEEA2800DFFC63 /* LQMineTableViewCell.h */,
+				F163665B1DBEEA2800DFFC63 /* LQMineTableViewCell.m */,
+				F163665C1DBEEA2800DFFC63 /* LQMineTableViewCell.xib */,
+				F1A3307C1DBF45380043EA5D /* LQSettingTableCell.h */,
+				F1A3307D1DBF45380043EA5D /* LQSettingTableCell.m */,
+				F1A3307E1DBF45380043EA5D /* LQSettingTableCell.xib */,
+				F1A330881DBF4BA80043EA5D /* LQCancelLoginTableCell.h */,
+				F1A330891DBF4BA80043EA5D /* LQCancelLoginTableCell.m */,
+				F1A3308A1DBF4BA80043EA5D /* LQCancelLoginTableCell.xib */,
+				F1239C3B1DC1DC4900565FC0 /* LQUserMsgTableViewCell.h */,
+				F1239C3C1DC1DC4900565FC0 /* LQUserMsgTableViewCell.m */,
+				F1239C3D1DC1DC4900565FC0 /* LQUserMsgTableViewCell.xib */,
+				F147287F1DC43B8F00421E99 /* LQSettingHeaderView.h */,
+				F14728801DC43B8F00421E99 /* LQSettingHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1705A1B1DBDF07A004A635F /* main */ = {
+			isa = PBXGroup;
+			children = (
+				F14728791DC42CA700421E99 /* Login */,
+				F16366411DBEE99000DFFC63 /* Category */,
+				F16366451DBEE99000DFFC63 /* Home */,
+				F16366491DBEE99000DFFC63 /* Mine */,
+				F1705A2B1DBE00A7004A635F /* SuperClass */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		F1705A2B1DBE00A7004A635F /* SuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				F1239C431DC1EC8200565FC0 /* publickViewModel */,
+				F1705A2C1DBE0190004A635F /* BaseViewController.h */,
+				F1705A2D1DBE0190004A635F /* BaseViewController.m */,
+				F1705A381DBE0E8A004A635F /* BaseTableViewCell.h */,
+				F1705A391DBE0E8A004A635F /* BaseTableViewCell.m */,
+				F1705A3A1DBE0E8A004A635F /* BaseTableViewCell.xib */,
+				F1A330641DBF2E2F0043EA5D /* BaseView.h */,
+				F1A330651DBF2E2F0043EA5D /* BaseView.m */,
+				F1239C311DC1D6C600565FC0 /* BaseModel.h */,
+				F1239C321DC1D6C600565FC0 /* BaseModel.m */,
+				F1239C401DC1E92F00565FC0 /* BaseViewModel.h */,
+				F1239C411DC1E92F00565FC0 /* BaseViewModel.m */,
+			);
+			path = SuperClass;
+			sourceTree = "<group>";
+		};
+		F1705A2F1DBE0259004A635F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F1705A301DBE0655004A635F /* MainHeader.h */,
+				F1D3F55C1DC07C62001854C8 /* PublicHeader.h */,
+				F1D3F55D1DC07C6E001854C8 /* UrlHeader.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F1A3306C1DBF43650043EA5D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F1A3306D1DBF43650043EA5D /* LQMineDetailViewController.h */,
+				F1A3306E1DBF43650043EA5D /* LQMineDetailViewController.m */,
+				F1A3306F1DBF43650043EA5D /* LQMineDetailViewController.xib */,
+				F1A330701DBF43650043EA5D /* LQMineViewController.h */,
+				F1A330711DBF43650043EA5D /* LQMineViewController.m */,
+				F1A330721DBF43650043EA5D /* LQMineViewController.xib */,
+				F1A330731DBF43650043EA5D /* LQSettingViewController.h */,
+				F1A330741DBF43650043EA5D /* LQSettingViewController.m */,
+				F1A330751DBF43650043EA5D /* LQSettingViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		F1A330811DBF49860043EA5D /* public */ = {
+			isa = PBXGroup;
+			children = (
+				F1A330821DBF49860043EA5D /* NSObject+enVon.h */,
+				F1A330831DBF49860043EA5D /* NSObject+enVon.m */,
+				F1A330851DBF49E30043EA5D /* LQGlobalService.h */,
+				F1A330861DBF49E30043EA5D /* LQGlobalService.m */,
+				F1D3F5561DC053B3001854C8 /* LQInterfaceService.h */,
+				F1D3F5571DC053B3001854C8 /* LQInterfaceService.m */,
+				F1D3F5591DC05AAE001854C8 /* NSString+EnVon.h */,
+				F1D3F55A1DC05AAE001854C8 /* NSString+EnVon.m */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +485,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F119271E1DBB3B9C00B91CE8 /* Build configuration list for PBXNativeTarget "RACLoginDemo" */;
 			buildPhases = (
+				750019849F15FFEF8E90B01E /* [CP] Check Pods Manifest.lock */,
 				F11926ED1DBB3B9B00B91CE8 /* Sources */,
 				F11926EE1DBB3B9B00B91CE8 /* Frameworks */,
 				F11926EF1DBB3B9B00B91CE8 /* Resources */,
+				6891A4FEB494D999B2DD9D29 /* [CP] Embed Pods Frameworks */,
+				830D9CA816D100125B7A5235 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +588,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11927041DBB3B9B00B91CE8 /* LaunchScreen.storyboard in Resources */,
+				F1A3308C1DBF4BA80043EA5D /* LQCancelLoginTableCell.xib in Resources */,
+				F1A3307B1DBF43650043EA5D /* LQSettingViewController.xib in Resources */,
 				F11927011DBB3B9B00B91CE8 /* Assets.xcassets in Resources */,
+				F1A330791DBF43650043EA5D /* LQMineViewController.xib in Resources */,
 				F11926FF1DBB3B9B00B91CE8 /* Main.storyboard in Resources */,
+				F163664E1DBEE99000DFFC63 /* LQCategoryViewController.xib in Resources */,
+				F1A330801DBF45380043EA5D /* LQSettingTableCell.xib in Resources */,
+				F1705A3C1DBE0E8A004A635F /* BaseTableViewCell.xib in Resources */,
+				F163665E1DBEEA2800DFFC63 /* LQMineTableViewCell.xib in Resources */,
+				F16366501DBEE99000DFFC63 /* LQHomeViewController.xib in Resources */,
+				F1A330771DBF43650043EA5D /* LQMineDetailViewController.xib in Resources */,
+				F1319CB41DC2E8020059292A /* head_image.png in Resources */,
+				F147287E1DC42CA700421E99 /* LQLoginViewController.xib in Resources */,
+				F1239C3F1DC1DC4900565FC0 /* LQUserMsgTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +621,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6891A4FEB494D999B2DD9D29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACLoginDemo/Pods-RACLoginDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750019849F15FFEF8E90B01E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		830D9CA816D100125B7A5235 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACLoginDemo/Pods-RACLoginDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F11926ED1DBB3B9B00B91CE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A330661DBF2E2F0043EA5D /* BaseView.m in Sources */,
+				F1239C421DC1E92F00565FC0 /* BaseViewModel.m in Sources */,
+				F1239C481DC1EC8200565FC0 /* LQCellViewModel.m in Sources */,
+				F1705A2E1DBE0190004A635F /* BaseViewController.m in Sources */,
+				F1A330871DBF49E30043EA5D /* LQGlobalService.m in Sources */,
 				F11926FC1DBB3B9B00B91CE8 /* ViewController.m in Sources */,
+				F1A330841DBF49860043EA5D /* NSObject+enVon.m in Sources */,
+				F1705A3B1DBE0E8A004A635F /* BaseTableViewCell.m in Sources */,
+				F1D3F55B1DC05AAE001854C8 /* NSString+EnVon.m in Sources */,
+				F1239C4C1DC1ECC700565FC0 /* LQMineCellViewModel.m in Sources */,
+				F147287D1DC42CA700421E99 /* LQLoginViewController.m in Sources */,
+				F163664D1DBEE99000DFFC63 /* LQCategoryViewController.m in Sources */,
+				F1239C2C1DC1D66600565FC0 /* LQUserMsgViewModel.m in Sources */,
+				F163664F1DBEE99000DFFC63 /* LQHomeViewController.m in Sources */,
 				F11926F91DBB3B9B00B91CE8 /* AppDelegate.m in Sources */,
+				F14728811DC43B8F00421E99 /* LQSettingHeaderView.m in Sources */,
+				F1239C4F1DC1F98E00565FC0 /* LQSettingViewModel.m in Sources */,
+				F1A3308B1DBF4BA80043EA5D /* LQCancelLoginTableCell.m in Sources */,
+				F14728841DC43BFA00421E99 /* LQSettingHeaderViewModel.m in Sources */,
+				F1239C371DC1DBA300565FC0 /* LQGetTestConfigData.m in Sources */,
+				F1239C3A1DC1DBB600565FC0 /* LQGetTestData.m in Sources */,
+				F163665D1DBEEA2800DFFC63 /* LQMineTableViewCell.m in Sources */,
+				F1239C491DC1EC8200565FC0 /* LQViewModel.m in Sources */,
+				F1239C301DC1D68900565FC0 /* LQMineModel.m in Sources */,
 				F11926F61DBB3B9B00B91CE8 /* main.m in Sources */,
+				F1D3F5581DC053B3001854C8 /* LQInterfaceService.m in Sources */,
+				F1A3307F1DBF45380043EA5D /* LQSettingTableCell.m in Sources */,
+				F1319CB71DC301F90059292A /* LQMineViewModel.m in Sources */,
+				F1A330781DBF43650043EA5D /* LQMineViewController.m in Sources */,
+				F1239C3E1DC1DC4900565FC0 /* LQUserMsgTableViewCell.m in Sources */,
+				F1A3307A1DBF43650043EA5D /* LQSettingViewController.m in Sources */,
+				F1239C331DC1D6C600565FC0 /* BaseModel.m in Sources */,
+				F1A330761DBF43650043EA5D /* LQMineDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +853,10 @@
 		};
 		F119271F1DBB3B9C00B91CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0216C5D46BA64BFFA9DCC57 /* Pods-RACLoginDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RACLoginDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = RACLoginDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KAD.RACLoginDemo;
@@ -433,8 +866,10 @@
 		};
 		F11927201DBB3B9C00B91CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354E6CD6AEEAD1B5ACDAC91C /* Pods-RACLoginDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RACLoginDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = RACLoginDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KAD.RACLoginDemo;
@@ -507,6 +942,7 @@
 				F11927201DBB3B9C00B91CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F11927211DBB3B9C00B91CE8 /* Build configuration list for PBXNativeTarget "RACLoginDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +951,7 @@
 				F11927231DBB3B9C00B91CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F11927241DBB3B9C00B91CE8 /* Build configuration list for PBXNativeTarget "RACLoginDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +960,7 @@
 				F11927261DBB3B9C00B91CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,27 @@
+PODS:
+  - JLRoutes (1.5.5)
+  - JSONModel (1.1.2)
+  - Masonry (1.0.1)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - JLRoutes (~> 1.5.3)
+  - JSONModel (~> 1.1.0)
+  - Masonry (~> 1.0.1)
+  - ReactiveCocoa (~> 2.5)
+
+SPEC CHECKSUMS:
+  JLRoutes: d191a496b820f60d70225202d04289582da962df
+  JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: 402b290e1c518084667dda913aa993768a0d8a3e
+
+COCOAPODS: 1.0.1
