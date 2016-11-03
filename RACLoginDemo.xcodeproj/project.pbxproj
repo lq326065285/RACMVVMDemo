@@ -30,6 +30,7 @@
 		F1239C4F1DC1F98E00565FC0 /* LQSettingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1239C4E1DC1F98E00565FC0 /* LQSettingViewModel.m */; };
 		F1319CB41DC2E8020059292A /* head_image.png in Resources */ = {isa = PBXBuildFile; fileRef = F1319CB31DC2E8020059292A /* head_image.png */; };
 		F1319CB71DC301F90059292A /* LQMineViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1319CB61DC301F90059292A /* LQMineViewModel.m */; };
+		F13B43291DCAE854002FE9D5 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = F13B43281DCAE854002FE9D5 /* UIViewController+Tracking.m */; };
 		F147287D1DC42CA700421E99 /* LQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F147287B1DC42CA700421E99 /* LQLoginViewController.m */; };
 		F147287E1DC42CA700421E99 /* LQLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F147287C1DC42CA700421E99 /* LQLoginViewController.xib */; };
 		F14728811DC43B8F00421E99 /* LQSettingHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F14728801DC43B8F00421E99 /* LQSettingHeaderView.m */; };
@@ -123,6 +124,8 @@
 		F1319CB31DC2E8020059292A /* head_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_image.png; sourceTree = "<group>"; };
 		F1319CB51DC301F90059292A /* LQMineViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMineViewModel.h; sourceTree = "<group>"; };
 		F1319CB61DC301F90059292A /* LQMineViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMineViewModel.m; sourceTree = "<group>"; };
+		F13B43271DCAE854002FE9D5 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		F13B43281DCAE854002FE9D5 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
 		F147287A1DC42CA700421E99 /* LQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQLoginViewController.h; sourceTree = "<group>"; };
 		F147287B1DC42CA700421E99 /* LQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQLoginViewController.m; sourceTree = "<group>"; };
 		F147287C1DC42CA700421E99 /* LQLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQLoginViewController.xib; sourceTree = "<group>"; };
@@ -474,6 +477,8 @@
 				F1D3F5571DC053B3001854C8 /* LQInterfaceService.m */,
 				F1D3F5591DC05AAE001854C8 /* NSString+EnVon.h */,
 				F1D3F55A1DC05AAE001854C8 /* NSString+EnVon.m */,
+				F13B43271DCAE854002FE9D5 /* UIViewController+Tracking.h */,
+				F13B43281DCAE854002FE9D5 /* UIViewController+Tracking.m */,
 			);
 			path = public;
 			sourceTree = "<group>";
@@ -705,6 +710,7 @@
 				F1A330781DBF43650043EA5D /* LQMineViewController.m in Sources */,
 				F1239C3E1DC1DC4900565FC0 /* LQUserMsgTableViewCell.m in Sources */,
 				F1A3307A1DBF43650043EA5D /* LQSettingViewController.m in Sources */,
+				F13B43291DCAE854002FE9D5 /* UIViewController+Tracking.m in Sources */,
 				F1239C331DC1D6C600565FC0 /* BaseModel.m in Sources */,
 				F1A330761DBF43650043EA5D /* LQMineDetailViewController.m in Sources */,
 			);

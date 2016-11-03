@@ -49,6 +49,7 @@
 
 
 -(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
 //    测试用例，加入这句，可以出发 LQGlobalService 中的starListen方法
 //    [JLRoutes routeURL:[NSURL URLWithString:@"lq://commad/mineController/name/actionURL"]];
 }
